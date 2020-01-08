@@ -1,0 +1,6 @@
+x=int(input('Enter a number'))
+i,mul=1,1
+while i<=x:
+    mul=mul*i
+    i+=1
+print(mul)
