@@ -1,0 +1,12 @@
+# nature of roots in a quadratic equation
+a=int(input("Enter the 1st coefficient of the quadratic equation"))
+b=int(input("Enter the 2nd coefficient of the quadratic equation"))
+c=int(input("Enter the 3rd coefficient of the quadratic equation"))
+x=(b*b)-(4*(a*c))
+if x>0 or x==0:
+    if x==0:
+        print("equal real roots")
+    else:
+        print("non eqal real roots")
+else:
+    print("non real roots")
