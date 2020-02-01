@@ -1,0 +1,8 @@
+sum=0
+x=int(input())
+last_val=2*x   #2 times for finding the odd numbers
+for i in range(1,last_val):
+    if i%2==1:
+        sum+=i
+    
+print(sum)
