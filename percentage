@@ -1,0 +1,18 @@
+# Student pass or fail
+ls=[]
+print(type(x))
+for i in range(0,5):
+    x=int(input(f"Enter {i} subjects marks"))
+    ls.append(x)
+sum=0
+for i in ls:
+    sum+=i
+perc=sum/5
+if perc<40:
+    print('Fail')
+elif(perc<60 and perc>40):
+    print("pass")
+elif(perc<80 and perc>60):
+    print("pass")
+elif(perc<100 and perc>80):
+    print("pass")
