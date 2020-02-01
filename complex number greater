@@ -1,0 +1,8 @@
+# large number bw real part and img in complex number
+x=complex(input("Enter the complex number"))
+print(x.imag) #prints imaginary part
+print(x.real) #[rints real part
+if x.real>x.imag:
+    print(f"{x.real} is greater")
+else:
+    print(f"{x.imag} is greater")
