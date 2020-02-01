@@ -1,0 +1,6 @@
+# Lexicographical order
+word=input("Enter the 3 words")
+ls=word.split()
+ls.sort()
+for i in ls:
+    print(i)
