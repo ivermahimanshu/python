@@ -1,0 +1,16 @@
+def next_prime(n):
+    while True:
+        n+=1
+        for i in range(2,n):
+             if n%i==0:
+                break
+        else:
+             return n
+def primeNo(num):
+    na,count=1,1
+    while count<=num:
+        na=next_prime(na)
+        yield na
+        count+=1
+l=[x for x in primeNo(5)]
+print(l)
