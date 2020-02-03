@@ -1,0 +1,9 @@
+n1=int(input("Enter smaller no"))
+n2=int(input("Enter larger no"))
+s=range(n1,n2+1) #if n2 is also prime then this program will show n2 as well
+for i in s:
+    for x in range(2,i):
+        if i%x==0:
+            break
+    else:
+        print(i,"is prime")
