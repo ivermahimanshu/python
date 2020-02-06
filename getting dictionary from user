@@ -1,0 +1,9 @@
+#Getting key value pair from user and creating a dictionary
+d={}
+n=int(input("Enter the Number"))
+for i in range(n):
+    k=input("Enter key")
+    v=input("Enter value")
+    d.update({k:v})
+print(d)
+    
