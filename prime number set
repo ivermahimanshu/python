@@ -1,0 +1,19 @@
+#to generate n prime number in a set
+n=int(input("Enter Number"))
+
+def nextPrime(x):
+    while True:
+        x+=1
+        for i in range(2,x):
+            if x%i==0:
+                break
+        else:
+            return x
+def primeGen(no):
+    count,num=1,1
+    while count<=no:
+        num=nextPrime(num)
+        yield num
+        count+=1
+s={k for k in primeGen(n)}
+print(s)
