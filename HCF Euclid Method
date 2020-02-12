@@ -1,0 +1,6 @@
+#hcf euclid method
+def hcf2(x,y):
+    while (y):
+        x,y=y,x%y
+    return x
+print(hcf2(54,24))
